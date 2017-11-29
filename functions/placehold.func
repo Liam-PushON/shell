@@ -1,0 +1,9 @@
+placehold(){
+  if [[ -n $2 ]]; then
+    wget http://placehold.it/$1x$2
+	mv ./$1x$2 $1x$2.png
+  else
+    wget http://placehold.it/$1x$1
+	mv ./$1x$1 $1x$1.png
+  fi
+}

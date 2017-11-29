@@ -1,0 +1,9 @@
+gunction gres() {
+  git reset --hard origin/$1
+}
+
+function gflat() {
+  gch $1 -f
+  gpll $1
+  gres $1
+}

@@ -1,0 +1,1 @@
+alias ssh="compile-ssh && sshpass -f/home/liam/.ssh/pass/invopaklive && ssh"

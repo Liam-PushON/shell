@@ -1,0 +1,13 @@
+function goto() {
+  if [[ -d ~/$1 ]]; then
+    cd ~/$1;
+  else
+    cd ~/Code;
+    if [[ $1 != Code ]]; then
+      cd $1;
+      if [[ -d 'public_html' ]]; then
+        cd 'public_html';
+      fi
+    fi
+  fi
+}
