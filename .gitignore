@@ -4,3 +4,6 @@
 !.zshrc
 !.oh-my-zsh
 !/functions/*
+!.config/i3/config
+!.config/polybar/config
+

@@ -1,0 +1,54 @@
+;|| ================================================================= ||
+;||																	  ||
+;||	    							Vars    	 					  ||
+;||																	  ||
+;|| ================================================================= ||
+
+include-file=/home/liam/.config/polybar/var/colors
+
+
+;|| ================================================================= ||
+;||																	  ||
+;||	    							Modules 	 					  ||
+;||																	  ||
+;|| ================================================================= ||
+
+include-file=/home/liam/.config/polybar/module/battery
+include-file=/home/liam/.config/polybar/module/bspwm
+include-file=/home/liam/.config/polybar/module/cpu
+include-file=/home/liam/.config/polybar/module/date
+include-file=/home/liam/.config/polybar/module/eth
+include-file=/home/liam/.config/polybar/module/filesystem
+include-file=/home/liam/.config/polybar/module/i3
+include-file=/home/liam/.config/polybar/module/memory
+include-file=/home/liam/.config/polybar/module/mpd
+include-file=/home/liam/.config/polybar/module/powermenu
+include-file=/home/liam/.config/polybar/module/temp
+include-file=/home/liam/.config/polybar/module/volume
+include-file=/home/liam/.config/polybar/module/pavolume
+include-file=/home/liam/.config/polybar/module/reddit
+include-file=/home/liam/.config/polybar/module/wlan
+include-file=/home/liam/.config/polybar/module/xbacklight
+include-file=/home/liam/.config/polybar/module/xwindow
+
+
+;|| ================================================================= ||
+;||																	  ||
+;||	    							Settings 	 					  ||
+;||																	  ||
+;|| ================================================================= ||
+
+include-file= /home/liam/.config/polybar/settings
+
+
+
+;|| ================================================================= ||
+;||																	  ||
+;||	    							Bars    	 					  ||
+;||																	  ||
+;|| ================================================================= ||
+
+include-file= /home/liam/.config/polybar/bar/example
+include-file= /home/liam/.config/polybar/bar/primary
+include-file= /home/liam/.config/polybar/bar/left
+include-file= /home/liam/.config/polybar/bar/right
