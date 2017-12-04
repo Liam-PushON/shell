@@ -1,5 +1,6 @@
-*
+/*
+/*/
 !.gitignore
 !.zshrc
-!aliases
+!.oh-my-zsh
 !functions

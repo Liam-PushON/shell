@@ -13,5 +13,9 @@ for file in ~/functions/*.func; do
   source "$file"
 done
 
-PATH=~/Programs/bin:$PATH
-PATH=~/.composer/vendor/bin:$PATH
+#Paths
+for file in ~/paths/*.path; do
+  source "$file"
+done
+#Remove path dupes
+#PATH='printf %s "$PATH" | awk -v RS=: -v ORS=: "!arr[$0]++"'
