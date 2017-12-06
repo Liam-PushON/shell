@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-xinerama --bg-scale '/home/liam/bg2.png' 
+feh --no-xinerama --bg-scale '/home/liam/Pictures/bg.png' 
