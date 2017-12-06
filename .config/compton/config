@@ -1,0 +1,2 @@
+shadow = true;
+shadow-exclude = [ "name = 'Polybar tray window'"];
