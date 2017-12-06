@@ -1,0 +1,4 @@
+PATH=$PATH:/bin:/sbin
+PATH=$PATH:/usr/bin:/usr/sbin
+PATH=$PATH:/usr/local/bin:/usr/local/sbin
+PATH=$PATH:/snap/bin

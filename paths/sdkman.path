@@ -1,0 +1,4 @@
+export SDKMAN_DIR="/home/liam/.sdkman"
+[[ -s "/home/liam/.sdkman/bin/sdkman-init.sh" ]] && source "/home/liam/.sdkman/bin/sdkman-init.sh"
+
+
