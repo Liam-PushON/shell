@@ -1,4 +1,4 @@
 alias magento="php bin/magento"
 alias flush="magento cache:flush"
-alias deploy-static="rm -rf var/view_preprocessed/source var/view_preprocessed/css pub/static/frontend && magento setup:upgrade && magento setup:static-content:deploy && flush && clear"
+alias deploy-static="rm -rf var/view_preprocessed/source var/view_preprocessed/css pub/static/frontend && magento setup:upgrade && magento setup:static-content:deploy -f && flush && clear"
 alias di-compile="rm -rf var/di && magento setup:di:compile"

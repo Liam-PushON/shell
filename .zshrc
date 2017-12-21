@@ -17,5 +17,5 @@ done
 for file in ~/paths/*.path; do
   source "$file"
 done
-#Remove path dupes
-#PATH='printf %s "$PATH" | awk -v RS=: -v ORS=: "!arr[$0]++"'
+
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
