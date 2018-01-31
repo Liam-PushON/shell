@@ -140,7 +140,7 @@ gaps outer 0
 #smart_gaps on
 
 #lock
-bindsym Mod1+l exec lock
+bindsym Mod1+l exec i3lock
 #screenshot
 bindsym Mod1+Print exec cap
 
