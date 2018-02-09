@@ -147,6 +147,7 @@ bindsym Mod1+Print exec cap
 #shadow
 exec --no-startup-id compton --config /home/liam/.config/compton/config --respect-prop-shadow
 #bg
+exec --no-startip-id ~/.xprofile
 exec --no-startup-id ~/.fehbg
 #bar
 exec --no-startup-id $HOME/.config/polybar/launch.sh
