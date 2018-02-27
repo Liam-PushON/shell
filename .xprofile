@@ -1,4 +1,0 @@
-xrandr --output DVI-1 --pos 0x840
-xrandr --output DVI-0 --primary --pos 1920x840
-xrandr --output DisplayPort-0 --pos 3840x0 --rotate left
-

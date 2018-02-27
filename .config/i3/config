@@ -135,14 +135,14 @@ bindsym $mod+r mode "resize"
 
 
 #gaps
-gaps inner 20
-gaps outer 0
-#smart_gaps on
+#Broken ?? :(
 
 #lock
 bindsym Mod1+l exec i3lock
 #screenshot
-bindsym Mod1+Print exec cap
+bindsym Print exec scrot ~/Pictures/Screenshots/%b%d-%H%M%S.png
+bindsym $mod+Print exec scrot -s ~/Pictures/Screenshots/%b%d-%H%M%S.png 
+
 
 #shadow
 exec --no-startup-id compton --config /home/liam/.config/compton/config --respect-prop-shadow

@@ -1,17 +1,4 @@
-;|| ================================================================= ||
-;||																	  ||
-;||	    							Vars    	 					  ||
-;||																	  ||
-;|| ================================================================= ||
-
 include-file=/home/liam/.config/polybar/var/colors
-
-
-;|| ================================================================= ||
-;||																	  ||
-;||	    							Modules 	 					  ||
-;||																	  ||
-;|| ================================================================= ||
 
 include-file=/home/liam/.config/polybar/module/battery
 include-file=/home/liam/.config/polybar/module/bspwm
@@ -31,24 +18,8 @@ include-file=/home/liam/.config/polybar/module/wlan
 include-file=/home/liam/.config/polybar/module/xbacklight
 include-file=/home/liam/.config/polybar/module/xwindow
 
-
-;|| ================================================================= ||
-;||																	  ||
-;||	    							Settings 	 					  ||
-;||																	  ||
-;|| ================================================================= ||
-
 include-file= /home/liam/.config/polybar/settings
 
-
-
-;|| ================================================================= ||
-;||																	  ||
-;||	    							Bars    	 					  ||
-;||																	  ||
-;|| ================================================================= ||
-
-include-file= /home/liam/.config/polybar/bar/example
-include-file= /home/liam/.config/polybar/bar/primary
-include-file= /home/liam/.config/polybar/bar/left
-include-file= /home/liam/.config/polybar/bar/right
+#include-file= /home/liam/.config/polybar/bar/primary
+#include-file= /home/liam/.config/polybar/bar/left
+#include-file= /home/liam/.config/polybar/bar/right
